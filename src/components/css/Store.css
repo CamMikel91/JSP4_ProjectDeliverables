@@ -1,0 +1,28 @@
+.container {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #000;
+  color: azure;
+  box-shadow: 2px 2px 5px 2px #aaaaaa;
+}
+
+.card-body p:first-of-type {
+  font-size: 0.75rem;
+}
+
+.card-body p:last-of-type {
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.card-body a:hover {
+  color: #000;
+}
+
+.available {
+  color: green;
+  font-size: 0.75rem;
+  align-self: flex-end;
+}

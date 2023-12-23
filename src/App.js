@@ -1,7 +1,16 @@
-import "./App.css";
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Store from "./components/Store";
+import { getProducts } from "./data/ItemsData";
+import "./css/App.css";
 
-function App() {
-  return <div className="App"></div>;
+class App extends Component {
+  state = {
+    products: getProducts(),
+  };
+  render() {
+    return <Store products={this.state.products} />;
+  }
 }
 
 export default App;
