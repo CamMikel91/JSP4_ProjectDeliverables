@@ -47,6 +47,5 @@ const products = [
 ];
 
 export function getProducts() {
-  console.log(products);
   return products;
 }
