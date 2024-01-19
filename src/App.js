@@ -8,8 +8,6 @@ import Checkout from "./components/OrderCheckout";
 import "bootstrap/dist/css/bootstrap.css";
 import "./css/App.css";
 
-// return <Store products={this.state.products} />;
-
 class App extends Component {
   state = {
     products: getProducts(),
@@ -59,7 +57,7 @@ class App extends Component {
   };
 
   handleCheckout = (order) => {
-    this.setState({ order });
+    this.setState({ order, itemsInCart: [] });
   };
 
   render() {

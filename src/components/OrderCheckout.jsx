@@ -8,7 +8,7 @@ class Checkout extends Component {
     const { order } = this.props;
     return (
       <div className="container my-5">
-        <h1>Checkout</h1>
+        <h1>Order Submitted</h1>
         {order.items.map((item) => {
           return (
             <div className="row mb-3">

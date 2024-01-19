@@ -11,11 +11,6 @@ const NavBar = (props) => {
               <div className="navbar" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link to="/" className="nav-link" aria-current="page">
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
                     <Link className="nav-link" to="/store">
                       Store
                     </Link>
