@@ -6,9 +6,9 @@ const NavBar = (props) => {
     <div className="container-fluid">
       <div className="row bg-light">
         <div className="col-12">
-          <nav className="navbar navbar-expand navbar-light bg-light">
-            <div className="container-fluid">
-              <div className="navbar" id="navbarNav">
+          <nav className="navbar navbar-expand navbar-light">
+            <div className="container-fluid justify-content-end">
+              <div className="navbar me-5" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link className="nav-link" to="/store">

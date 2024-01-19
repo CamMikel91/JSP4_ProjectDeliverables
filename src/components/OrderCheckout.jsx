@@ -12,7 +12,7 @@ class Checkout extends Component {
         {order.items.map((item) => {
           return (
             <div className="row mb-3">
-              <div className="col-8 bg-light">
+              <div className="col-12 bg-light">
                 <div className="row p-2">
                   <div className="col-4">
                     <img
